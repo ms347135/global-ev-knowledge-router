@@ -2,7 +2,7 @@
 
 An enterprise-style automotive RAG system that routes EV support questions across manuals, charging guides, service FAQs, warranty terms, specifications, and market-specific policy documents — then synthesizes a single evidence-backed answer.
 
-![Hero Banner](assets/hero-banner.svg)
+![App Overview](assets/app-overview.png)
 
 ## Why this project matters
 
@@ -37,43 +37,23 @@ This repo is designed to signal strong applied-LLM and product-engineering skill
 
 ### Real App Screenshots
 
-#### 1. Dashboard and ingestion workflow
-
-This screen shows the main app shell: sidebar configuration, analytics summary, demo dataset loader, and the document-ingestion tabs.
-
-![App Overview](assets/app-overview.png)
-
-#### 2. Routing decision and trace details
+#### 1. Routing decision and trace details
 
 This screen shows the routed collection, confidence level, fallback status, evidence count, and the detailed routing trace used to explain why the query was classified the way it was.
 
 ![Routing Details](assets/routing-details.png)
 
-#### 3. Structured answer in English
+#### 2. Structured answer in English
 
 This screen shows the answer format used for recruiter demos: short answer, evidence-by-source, regional caveats, uncertainty, and citation-backed evidence cards.
 
 ![English Answer](assets/answer-english.png)
 
-#### 4. Structured answer in Chinese
+#### 3. Structured answer in Chinese
 
 This screen demonstrates multilingual output, showing the same evidence-backed answer style in Chinese for global EV support use cases.
 
 ![Chinese Answer](assets/answer-chinese.png)
-
-### UI Concept
-
-The following visual is a simplified layout concept that summarizes the product structure at a glance.
-
-![UI Overview](assets/ui-overview.svg)
-
-### Architecture
-
-![System Architecture](assets/system-architecture.svg)
-
-### Demo Flow
-
-![Demo Workflow](assets/demo-workflow.svg)
 
 ## Core Features
 
