@@ -1,0 +1,62 @@
+[
+  {
+    "id": "vehicle_specs",
+    "display_name": "Vehicle Specs",
+    "description": "Vehicle specifications, trim differences, dimensions, performance, charging speed, battery capacity, and feature summaries.",
+    "collection_name": "vehicle_specs_collection",
+    "priority": 5,
+    "document_types": ["vehicle_specs", "press_material"],
+    "allowed_regions": ["global", "brazil", "thailand", "hungary", "vietnam", "indonesia"],
+    "default_keywords": ["specification", "range", "battery", "charging speed", "trim", "dimension", "performance"]
+  },
+  {
+    "id": "owner_manuals",
+    "display_name": "Owner Manuals",
+    "description": "Owner guidance, dashboard explanation, controls, feature usage, safety notes, and manual procedures.",
+    "collection_name": "owner_manuals_collection",
+    "priority": 5,
+    "document_types": ["owner_manual"],
+    "allowed_regions": ["global", "brazil", "thailand", "hungary", "vietnam", "indonesia"],
+    "default_keywords": ["manual", "warning light", "dashboard", "feature", "how to", "guide", "controls"]
+  },
+  {
+    "id": "service_faqs",
+    "display_name": "Service FAQs",
+    "description": "Troubleshooting guidance, service frequently asked questions, maintenance notes, and after-sales support content.",
+    "collection_name": "service_faqs_collection",
+    "priority": 4,
+    "document_types": ["service_faq"],
+    "allowed_regions": ["global", "brazil", "thailand", "hungary", "vietnam", "indonesia"],
+    "default_keywords": ["troubleshooting", "service", "issue", "support", "maintenance", "problem", "faq"]
+  },
+  {
+    "id": "charging_guides",
+    "display_name": "Charging Guides",
+    "description": "AC and DC charging, battery preconditioning, home charging setup, charging safety, and charging best practices.",
+    "collection_name": "charging_guides_collection",
+    "priority": 5,
+    "document_types": ["charging_guide"],
+    "allowed_regions": ["global", "brazil", "thailand", "hungary", "vietnam", "indonesia"],
+    "default_keywords": ["charging", "ac", "dc", "home charger", "preconditioning", "plug", "battery preheat"]
+  },
+  {
+    "id": "market_policy",
+    "display_name": "Market Policy",
+    "description": "Region-specific installation notes, market policy, compliance guidance, and localized customer communication rules.",
+    "collection_name": "market_policy_collection",
+    "priority": 3,
+    "document_types": ["market_policy"],
+    "allowed_regions": ["brazil", "thailand", "hungary", "vietnam", "indonesia", "global"],
+    "default_keywords": ["policy", "market", "region", "installation", "regulation", "local requirement", "country"]
+  },
+  {
+    "id": "warranty_terms",
+    "display_name": "Warranty Terms",
+    "description": "Battery warranty, vehicle warranty, exclusions, support commitments, and customer coverage terms.",
+    "collection_name": "warranty_terms_collection",
+    "priority": 4,
+    "document_types": ["warranty_terms"],
+    "allowed_regions": ["global", "brazil", "thailand", "hungary", "vietnam", "indonesia"],
+    "default_keywords": ["warranty", "coverage", "claim", "term", "condition", "battery warranty", "service commitment"]
+  }
+]

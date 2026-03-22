@@ -1,0 +1,13 @@
+﻿# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Local data
+analytics/events.jsonl
+qdrant_local_data/
+streamlit_publish.log
+streamlit_publish.err.log

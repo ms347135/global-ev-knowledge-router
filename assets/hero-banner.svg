@@ -1,0 +1,71 @@
+<svg width="1600" height="860" viewBox="0 0 1600 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="1" stop-color="#12243A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="110" y1="510" x2="430" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D1B2"/>
+      <stop offset="1" stop-color="#4F8CFF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1600" height="860" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="28" flood-color="#03101F" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="860" rx="28" fill="url(#bg)"/>
+  <circle cx="1370" cy="146" r="200" fill="#123E63" fill-opacity="0.28"/>
+  <circle cx="1460" cy="738" r="250" fill="#113554" fill-opacity="0.24"/>
+  <circle cx="126" cy="706" r="188" fill="#0DA8A0" fill-opacity="0.12"/>
+
+  <text x="92" y="150" fill="#9ED8FF" font-size="18" font-family="Segoe UI, Arial, sans-serif" letter-spacing="4">GLOBAL EV KNOWLEDGE ROUTER</text>
+
+  <text x="92" y="250" fill="white" font-size="58" font-weight="700" font-family="Segoe UI, Arial, sans-serif">
+    <tspan x="92" dy="0">Enterprise-style automotive RAG</tspan>
+    <tspan x="92" dy="72">for global EV knowledge</tspan>
+    <tspan x="92" dy="72">systems</tspan>
+  </text>
+
+  <text x="92" y="466" fill="#C7D8E8" font-size="28" font-family="Segoe UI, Arial, sans-serif">
+    <tspan x="92" dy="0">Routes support questions across manuals, charging guides, service FAQs,</tspan>
+    <tspan x="92" dy="40">warranty terms, specifications, and market-specific policy documents.</tspan>
+  </text>
+
+  <rect x="92" y="560" width="250" height="58" rx="16" fill="url(#accent)"/>
+  <text x="218" y="597" text-anchor="middle" fill="white" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Metadata-aware RAG</text>
+
+  <rect x="362" y="560" width="224" height="58" rx="16" fill="#152A43" stroke="#2C4D73"/>
+  <text x="474" y="597" text-anchor="middle" fill="#DCE8F5" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Local demo ready</text>
+
+  <rect x="606" y="560" width="286" height="58" rx="16" fill="#152A43" stroke="#2C4D73"/>
+  <text x="749" y="597" text-anchor="middle" fill="#DCE8F5" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Multi-collection routing</text>
+
+  <g filter="url(#shadow)">
+    <rect x="930" y="100" width="570" height="620" rx="28" fill="#0A1627" stroke="#214060"/>
+    <rect x="966" y="140" width="498" height="76" rx="18" fill="#0F2338"/>
+    <circle cx="1004" cy="178" r="8" fill="#FF7A7A"/>
+    <circle cx="1032" cy="178" r="8" fill="#FFD166"/>
+    <circle cx="1060" cy="178" r="8" fill="#4ADE80"/>
+    <text x="1120" y="186" fill="#DDEBFA" font-size="25" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Query orchestration preview</text>
+
+    <rect x="966" y="244" width="218" height="124" rx="18" fill="#10233A" stroke="#284B70"/>
+    <text x="994" y="286" fill="#9ED8FF" font-size="16" font-family="Segoe UI, Arial, sans-serif">Primary route</text>
+    <text x="994" y="330" fill="white" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Charging Guides</text>
+
+    <rect x="1212" y="244" width="252" height="124" rx="18" fill="#10233A" stroke="#284B70"/>
+    <text x="1240" y="286" fill="#9ED8FF" font-size="16" font-family="Segoe UI, Arial, sans-serif">Secondary route</text>
+    <text x="1240" y="330" fill="white" font-size="24" font-weight="700" font-family="Segoe UI, Arial, sans-serif">Market Policy</text>
+
+    <rect x="966" y="396" width="498" height="144" rx="18" fill="#0E2135" stroke="#284B70"/>
+    <text x="994" y="436" fill="#9ED8FF" font-size="17" font-family="Segoe UI, Arial, sans-serif">Example question</text>
+    <text x="994" y="480" fill="#F4F8FC" font-size="24" font-weight="600" font-family="Segoe UI, Arial, sans-serif">
+      <tspan x="994" dy="0">“Compare battery warranty and charging</tspan>
+      <tspan x="994" dy="34">guidance for Seal owners in Brazil.”</tspan>
+    </text>
+
+    <rect x="966" y="568" width="498" height="116" rx="18" fill="#081728" stroke="#1E4B70"/>
+    <text x="994" y="608" fill="#7DE2C3" font-size="16" font-family="Segoe UI, Arial, sans-serif">Retrieved evidence</text>
+    <text x="994" y="646" fill="#EAF3FB" font-size="21" font-family="Segoe UI, Arial, sans-serif">• charging guide for Thailand market context</text>
+    <text x="994" y="676" fill="#EAF3FB" font-size="21" font-family="Segoe UI, Arial, sans-serif">• warranty terms with Brazil-specific notes</text>
+  </g>
+</svg>

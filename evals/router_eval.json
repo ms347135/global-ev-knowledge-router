@@ -1,0 +1,24 @@
+{
+  "description": "Starter evaluation scaffold for the Global EV Knowledge Router.",
+  "metrics": [
+    "route_accuracy",
+    "top2_route_recall",
+    "citation_precision",
+    "fallback_precision",
+    "region_awareness_accuracy"
+  ],
+  "examples": [
+    {
+      "question": "What is the recommended AC charging setup for Dolphin owners in Thailand?",
+      "expected_primary_collection": "charging_guides",
+      "expected_secondary_collections": ["market_policy"],
+      "expected_market": "thailand"
+    },
+    {
+      "question": "Compare battery warranty and charging guidance for Seal owners in Brazil.",
+      "expected_primary_collection": "warranty_terms",
+      "expected_secondary_collections": ["charging_guides"],
+      "expected_market": "brazil"
+    }
+  ]
+}

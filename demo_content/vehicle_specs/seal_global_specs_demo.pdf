@@ -1,0 +1,65 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 419 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+14 TL
+(Seal Global Specs Demo) Tj
+T* (Vehicle model: Seal) Tj
+T* (Document type: vehicle_specs) Tj
+T* (Market: global) Tj
+T* (Battery options: 61.4 kWh and 82.5 kWh.) Tj
+T* (Estimated WLTP range depends on trim and market configuration.) Tj
+T* (DC charging capability varies by battery and trim package.) Tj
+T* (Common support question: compare charging speed against local charger limits.) Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+4 0 obj
+<< /Length 408 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+14 TL
+(Seal Charging and Performance Notes) Tj
+T* (AC charging is intended for overnight or destination charging use.) Tj
+T* (DC charging performance depends on battery temperature and charger capacity.) Tj
+T* (Battery preconditioning can improve fast charging performance when supported.) Tj
+T* (Published figures should be interpreted together with local market documentation.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 6 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000555 00000 n 
+0000000681 00000 n 
+0000001140 00000 n 
+0000001266 00000 n 
+0000001329 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+1378
+%%EOF
